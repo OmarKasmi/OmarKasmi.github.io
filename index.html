@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kasmi Omar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+	<div class="Home">
+		<nav>
+			<h2 class="logo" ><span>My</span> Resumee</h2>
+			<i class="fas fa-bars" id="Responsive"></i>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about_me">About Me</a></li>
+				<li><a href="#MyCarrer">My Carreer</a></li>
+				<li><a href="#Skills">Skills</a></li>
+				<li><a href="#Contact" class="btn">Contact Me</a></li>
+			</ul>
+			
+		</nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>KASMI <span>Omar</span></h1>
+			<h3>I'am a Junior Data Scientist & Full-Stack Web Developper.</h3>
+			<div>
+				<a href="#about_me" class="btn">More info -></a>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about" id="about_me">
+		<div class="main">
+			<img src="img/main-img.jpeg" class="mainImg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Data Scientist <span>& Web-Dev</span></h5>
+				<p>I am passionate about the world of DATA. I am enrolled in AI & Management Master, <b>Data Scientist</b> path at IA School in Paris, and I want to evolve in this field within a company in which I can increase my competence and bring my rigor.</p>
+				<button onclick="window.location.href='#Contact'">I have an opportunity for you</button>
+			</div>
+		</div>
+	</section>
+
+	<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 100){
+			$('#scroll').fadeIn();
+		}else{
+			$('#scroll').fadeOut();
+		}
+	});
+	
+	</script>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if($(this).scrollTop() > 100){
+					$('#scroll').fadeIn();
+				}else{
+					$('#scroll').fadeOut();
+				}
+			});
+			$('#scroll').click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+		});
+		</script>
+
+	<!-----service section start----------->
+	<div class="My_carrer" id="MyCarrer">
+		<div class="title">
+			<h2>My Carrer</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-user-graduate"></i>
+				<h5>Education</h5>
+				<div class="pra">
+					<ul>
+						<li>AI & Management Master</li>
+						<li>Full-Stack Web Dev Course</li>
+						<li>Bachelor in Science Economics & Management</li>
+					</ul>
+					
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fas fa-briefcase"></i>
+				<h5>Professional Experience</h5>
+				<div class="pra">
+					<ul>
+						<li>Mobile Application Dev Intern</li>
+						<li>Stock And Warehouse Manager</li>
+						<li>Web Application Developpement</li>
+						<li>Sales Manager Assistant</li>
+					</ul>
+					
+				</div>
+			</div>
+
+		
+		</div>
+	</div>
+
+	<!------My Skills------>
+	<div class="Skills" id="Skills">
+		<p>Skills</p>
+		
+		<div class="skill-bars">
+			<div class="bar">
+			  <div class="info">
+				<span>Python</span>
+			  </div>
+			  <div class="progress-line python">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>R</span>
+			  </div>
+			  <div class="progress-line R">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>MySQL</span>
+			  </div>
+			  <div class="progress-line MySQL">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>Pandas</span>
+			  </div>
+			  <div class="progress-line Pandas">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>Java</span>
+			  </div>
+			  <div class="progress-line Java">
+				<span></span>
+			  </div>
+			</div>
+		  </div>
+		  <div class="skill-bars">
+			<div class="bar">
+			  <div class="info">
+				<span>HTML</span>
+			  </div>
+			  <div class="progress-line html">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>CSS</span>
+			  </div>
+			  <div class="progress-line css">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>PHP</span>
+			  </div>
+			  <div class="progress-line php">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>Flutter</span>
+			  </div>
+			  <div class="progress-line flutter">
+				<span></span>
+			  </div>
+			</div>
+			<div class="bar">
+			  <div class="info">
+				<span>Swift</span>
+			  </div>
+			  <div class="progress-line swift">
+				<span></span>
+			  </div>
+			</div>
+		  </div>
+
+	</div>
+
+	<!------Contact--------->
+	<div class="contact" id="Contact">
+		<p>KASMI Omar</p>
+		<p>If you have an opportunity for me, you can reach me from the links below:</p>
+		<div class="social" id="Contact Me">
+			<a href="https://github.com/OmarKasmi/"><i class="fab fa-github"></i></a>
+			<a href="https://www.instagram.com/ksm_omar/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/omar-kasmi-2883b31b5/"><i class="fab fa-linkedin"></i></a>
+			<a href="mailto:omar.kasmi.edu@groupe-gema.com"><i class="fas fa-envelope"></i></a>
+		</div>
+		<p class="end">Thank you for your time!</p>
+	</div>
+</body>
+</html>
