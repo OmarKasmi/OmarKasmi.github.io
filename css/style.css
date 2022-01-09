@@ -490,6 +490,9 @@ h5{
 	*{
 		margin: 0;
 	}
+	html{
+		scroll-behavior: smooth;
+	}
 	#Responsive{
 		display: inline-block;
 		background-color: #e74c3c;
